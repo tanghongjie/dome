@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#108ee9</color>
+    <color name="colorPrimaryDark">#096bc3</color>
+    <color name="colorAccent">#e83820</color>
+    <color name="statusbar_bg">#222222</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="main_bg">#ffffff</color>
+    <color name="second_bg">#eeeeee</color>
+    <color name="disable_bg">#bdbdbd</color>
+    <color name="main_color">#108ee9</color>
+    <color name="main_color_press">#1077e9</color>
+    <color name="main_text">#333333</color>
+    <color name="second_text">#666666</color>
+    <color name="black">#000000</color>
+
+    <color name="title_text">#ffffff</color>
+    <color name="right_text">#ffffff</color>
+    <color name="title_press_bg">@color/main_color_press</color>
+    <color name="title_bg">@color/main_color</color>
+    <color name="white">#ffffff</color>
+    <color name="loading_color">@color/main_color</color>
+    <color name="hint_text_color">#999999</color>
+    <color name="hint_text_color3">#333333</color>
+    <color name="hint_text_color6">#666666</color>
+    <color name="passview_color">#bdbdbd</color>
+    <color name="divide_line">#eeeeee</color>
+    <color name="press_white">#dddddd</color>
+    <color name="swipe_yellow">#f9bc00</color>
+    <color name="swipe_green">#04cb7a</color>
+    <color name="swipe_red">#e71e62</color>
+    <color name="text_red">#c3272b</color>
+    <color name="text_red_smila">#db3f33</color>
+
+    <color name="context_bg">#ffffff</color>
+    <color name="common_gray_text">#AAAFB5</color>
+    <color name="titlebar_title_text_color">#ffffff</color>
+    <color name="titlebar_right_text_color">#ffffff</color>
+    <color name="main_color_title_press">@color/main_color_press</color>
+
+    <color name="lauch_title_text_color">#000000</color>
+    <color name="lauch_right_text_color">@color/lauch_title_text_color</color>
+    <color name="lauch_main_color">#c3272b</color>
+    <color name="lauch_main_color_press">#bbc3272b</color>
+    <color name="lauch_text_color">@color/main_text</color>
+
+    <color name="auth_btn_enable_color">@color/main_color</color>
+    <color name="auth_btn_disable_color">#cccccc</color>
+    <color name="order_orange_color">#f39800</color>
+    <color name="had_pay_money_color">#04cb7a</color>
+
+    <color name="map_marker_selected_text_color">#096bc3</color>
+    <color name="star_value_bg">#6ac3fb</color>
+
+    <!-- QRCode scanner color begin -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">@color/main_color</color>
+    <color name="corner_color">@color/main_color</color>
+    <!-- QRCode scanner color end -->
+
+</resources>

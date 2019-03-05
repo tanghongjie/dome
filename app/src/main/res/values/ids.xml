@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 返回按钮的id -->
+    <item name="title_btn_back_id" type="id"></item>
+
+    <!-- 标题布局右边的按钮的id -->
+    <item name="title_right_view_id" type="id"></item>
+
+    <!-- 界面标题TextView的id -->
+    <item name="tv_title_id" type="id"></item>
+
+    <!-- 标题view使用的id -->
+    <item name="layout_titlebar_id" type="id"></item>
+
+    <!--为适配沉浸式状态栏使用的id-->
+    <item name="title_top_view_id" type="id"></item>
+
+    <!--根布局id-->
+    <item name="fl_layout_common_id" type="id"></item>
+
+    <item name="glide_tag_id" type="id"/>
+
+    <!--zxing-->
+    <item type="id" name="auto_focus"/>
+    <item type="id" name="decode"/>
+    <item type="id" name="decode_failed"/>
+    <item type="id" name="decode_succeeded"/>
+    <item type="id" name="encode_failed"/>
+    <item type="id" name="encode_succeeded"/>
+    <item type="id" name="launch_product_query"/>
+    <item type="id" name="quit"/>
+    <item type="id" name="restart_preview"/>
+    <item type="id" name="return_scan_result"/>
+    <item type="id" name="search_book_contents_failed"/>
+    <item type="id" name="search_book_contents_succeeded"/>
+
+
+</resources>

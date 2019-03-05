@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--取消用车的原因-->
+    <string-array name="array_cancelcar_reason">
+        <item>暂时不需要用车</item>
+        <item>找不到车辆位置</item>
+        <item>车辆有损伤</item>
+        <item>车辆轮胎有问题</item>
+        <item>其它原因</item>
+    </string-array>
+
+    <string-array name="array_backcar_tips">
+        <item>我已规范停车</item>
+        <item>我已熄火</item>
+        <item>我已关窗</item>
+        <item>我已关门/关灯</item>
+        <item>机械钥匙已归位</item>
+        <item>车内垃圾清理完毕</item>
+    </string-array>
+
+    <string-array name="array_discountcoupon_tips">
+        <item>可用优惠券</item>
+        <item>历史优惠券</item>
+    </string-array>
+
+    <string-array name="array_cashpledge_tips">
+        <item>共享汽车</item>
+        <item>汽车租赁</item>
+    </string-array>
+
+    <string-array name="array_nums">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </string-array>
+
+    <!--提现支持的银行列表:26个(顺序不能变)-->
+    <string-array name="array_bank_names">
+        <item>工商银行</item>
+        <item>建设银行</item>
+        <item>农业银行</item>
+        <item>中国银行</item>
+        <item>交通银行</item>
+        <item>邮储银行</item>
+        <item>广发银行</item>
+        <item>华夏银行</item>
+        <item>民生银行</item>
+        <item>平安银行</item>
+        <item>兴业银行</item>
+        <item>中信银行</item>
+        <item>招商银行</item>
+        <item>光大银行</item>
+        <item>浙商银行</item>
+        <item>渤海银行</item>
+        <item>恒丰银行</item>
+        <item>江苏银行</item>
+        <item>浦发银行</item>
+        <item>上海银行</item>
+        <item>南京银行</item>
+        <item>宁波银行</item>
+        <item>杭州银行</item>
+        <item>浙江民泰商业银行</item>
+        <item>浙江泰隆商业银行</item>
+        <item>浙江稠州商业银行</item>
+    </string-array>
+
+</resources>

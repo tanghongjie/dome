@@ -1,0 +1,87 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="common_title_height">46dp</dimen>
+    <dimen name="title_textsize">18sp</dimen>
+    <dimen name="right_btn_textsize">14sp</dimen>
+
+    <dimen name="common_button_height">45dp</dimen>
+    <dimen name="lauch_et_margintop">60dp</dimen>
+    <dimen name="lauch_et_margintop_step2">40dp</dimen>
+    <dimen name="bottom_btn_textsize">15sp</dimen>
+
+    <!--地图覆盖物宽高-->
+    <dimen name="map_market_nor_width">40dp</dimen>
+    <dimen name="map_market_nor_height">40dp</dimen>
+
+    <!--有优惠的地图覆盖物宽高-->
+    <dimen name="map_market_discount_width">40dp</dimen>
+    <dimen name="map_market_discount_height">44dp</dimen>
+
+    <dimen name="map_market_park_discount_width">40dp</dimen>
+    <dimen name="map_market_park_discount_height">44dp</dimen>
+
+
+    <!--停车覆盖物,无优惠的尺寸-->
+    <dimen name="map_market_park_nor_width">39dp</dimen>
+    <dimen name="map_market_park_nor_height">44dp</dimen>
+
+    <!--覆盖物数字大小-->
+    <dimen name="map_market_numtext_size">20sp</dimen>
+    <dimen name="map_market_numtext_hui_size">18sp</dimen>
+    <dimen name="map_market_numtext_min_size">9sp</dimen>
+    <dimen name="map_market_numtext_city_size">14sp</dimen>
+
+    <!--地图覆盖物:离我最近的图标记-->
+    <dimen name="map_market_nearest_width">50dp</dimen>
+    <dimen name="map_market_nearest_height">19dp</dimen>
+
+    <!--覆盖物:市区的大小-->
+    <dimen name="map_market_city_size">60dp</dimen>
+
+    <dimen name="map_topview_height">28dp</dimen>
+    <dimen name="map_topview_carlist_height">24dp</dimen>
+    <dimen name="map_topview_carlist_icon_size">16dp</dimen>
+    <dimen name="nopay_top_height">32dp</dimen>
+    <dimen name="listcar_view_height">168dp</dimen>
+
+    <!--主界面布局与底部的距离-->
+    <dimen name="main_layout_bottom_margin">6dp</dimen>
+    <dimen name="main_view_margin_bottom">8dp</dimen>
+    <dimen name="order_pay_item_height">34dp</dimen>
+
+    <!--车辆图片宽高比例=3:2-->
+    <!--订单详情,车辆图片尺寸-->
+    <dimen name="order_detail_car_width">100dp</dimen>
+    <dimen name="order_detail_car_height">66dp</dimen>
+
+    <!--主界面,车辆图片尺寸-->
+    <dimen name="mainpager_car_width">90dp</dimen>
+    <dimen name="mainpager_car_height">60dp</dimen>
+
+    <!--确定用车界面,车辆图片尺寸-->
+    <!--小尺寸-->
+    <dimen name="usecarpager_car_small_width">60dp</dimen>
+    <dimen name="usecarpager_car_small_height">40dp</dimen>
+
+    <!--大尺寸-->
+    <dimen name="usecarpager_car_big_width">90dp</dimen>
+    <dimen name="usecarpager_car_big_height">60dp</dimen>
+
+    <!--地图地图布局圆角-->
+    <dimen name="map_bottom_radius">6dp</dimen>
+
+    <!--订单筛选,popwindows偏移-->
+    <dimen name="order_filter_pop_offset">42dp</dimen>
+    <dimen name="order_discount_arrow_size">16dp</dimen>
+    <dimen name="pay_way_dot_size">16dp</dimen>
+    <dimen name="order_detail_carnum_size">16sp</dimen>
+
+    <!--用车时间-->
+    <dimen name="main_time_textsize">12sp</dimen>
+    <dimen name="main_car_modelname_textsize">12sp</dimen>
+    <dimen name="login_et_margintop">70dp</dimen>
+
+
+</resources>

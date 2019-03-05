@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <external-path
+            name="camera_photos"
+            path=""/>
+        <root-path
+            name="camera_photos"
+            path=""/>
+    </paths>
+
+    <!--<external-path/>代表的根目录: Environment.getExternalStorageDirectory()-->
+    <!--上述代码中path=""，是有特殊意义的，它代表根目录，
+    也就是说你可以向其它的应用共享根目录及其子目录下任何一个文件了，
+    如果你将path设为path="pictures"，那么它代表着根目录下的pictures目录
+    (eg:/storage/emulated/0/pictures)，如果你向其它应用分享pictures目录范围之外的文件是不行的-->
+
+
+    <!--
+    https://blog.csdn.net/ai_te_xiao/article/details/64128425
+    在说一个选择相册的,一般选择相册都是选择SD卡上,但是有些图片是存在SD卡外面的:
+
+    比如我华为荣耀8的 精选图片 里面的所有图片都是 /data/hw_init/version/region_comm/china/media/Pre-loaded/Pictures/kriswu-backgroud2.jpg 类似这样的
+
+    而sd卡的目录是/storage/emulated/0 这样的,在写paths的时候  <external-path />标签指定的是SD卡的。如果我选择SD卡外面的图片就报错崩溃.然后在网上查了很久
+
+    都没有找到用来配置 /data/xxx的标签，最后在一个开源项目TakePhoto中，找到了配置/data/xxx的标签 那就是 <root-path/>。然后程序就可以正常的跑起来了
+
+    既可以访问sd卡的图片又可以访问sd卡外的图片-->
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--设置界面:点击自定义归属地 显示样式 打开的动画效果-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+		android:shareInterpolator="false">
+    <translate android:fromYDelta="10%" android:toYDelta="0"
+	        android:interpolator="@anim/decelerate_quint"
+            android:duration="@android:integer/config_shortAnimTime"/>
+
+    <alpha android:fromAlpha="0.5" android:toAlpha="1.0"
+			android:interpolator="@anim/decelerate_cubic"
+            android:duration="@android:integer/config_shortAnimTime" />
+</set>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/root_loading_error"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <!--http请求错误通用UI布局-->
+    <ImageView
+        android:id="@+id/img_error_layout"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/ic_xxlvip_load_fail"
+        />
+
+    <TextView
+        android:id="@+id/bt_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/error_view_load_error_click_to_refresh"
+        android:textColor="#666666"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/retry_load"
+        android:textColor="@color/main_color"
+        android:textSize="14sp"/>
+</LinearLayout>
